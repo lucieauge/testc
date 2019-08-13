@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
       printf ("Vous etes majeur !\n");
     }
 
-    else (age<18)
+    else (age >= 60)
     {
-        printf ("Vous etes encore un bebe ! \n");
+        printf ("La retraite c'est bien aussi ! \n");
     }
 
     return 0;
