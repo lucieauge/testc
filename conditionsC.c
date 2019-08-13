@@ -3,17 +3,19 @@
 
 int main(int argc, char *argv[])
 {
-    int age = 0;
-    scanf("%d", &age);
+    	int age = 0; // On initialise la variable à 0
 
-    if (age >= 18)
+	printf("Quel age avez-vous ?");
+	scanf("%d", &age); // On demande d'enter l'age avec scanf
+	
+	if (age >= 18)
     {
       printf ("Vous etes majeur !\n");
     }
 
-    else (age >= 60)
+    else (age < 18)
     {
-        printf ("La retraite c'est bien aussi ! \n");
+        printf ("Ah ! Malheureusement vous êtes mineur ! \n");
     }
 
     return 0;
