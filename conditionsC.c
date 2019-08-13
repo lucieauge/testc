@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[])
+
 {
     	int age = 0; // On initialise la variable à 0
 
