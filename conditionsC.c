@@ -18,6 +18,11 @@ int main(int argc, char *argv[])
     {
         printf ("Ah ! Malheureusement vous êtes mineur ! \n");
     }
-
+	
+	while (age < 18)
+{
+ 	 printf("Vous devez être majeur ! ");
+	 scanf("%d", &age);
+}
     return 0;
 }
